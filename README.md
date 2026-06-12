@@ -135,6 +135,7 @@ English
 📥 安装使用教程 / Installation Guide
  
 中文
+https://github.com/aiguimi/FatigueDetector/releases/tag/v5.0
  
 1. 前往本仓库 Releases 下载对应APK
 - 纯中文版：适合国内用户
@@ -145,6 +146,7 @@ English
 5. 夜间必须补光 + 提前测试，确认功能正常再使用
  
 English
+https://github.com/aiguimi/FatigueDetector/releases/tag/v5.0
  
 1. Download APK from Releases
 2. Allow installation from unknown sources

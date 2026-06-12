@@ -1,0 +1,39 @@
+{
+  "name": "driver-fatigue-detector",
+  "version": "5.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "build:android": "eas build -p android --profile preview",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "expo": "~53.0.0",
+    "expo-build-properties": "^0.13.3",
+    "expo-haptics": "~14.0.0",
+    "expo-keep-awake": "~14.0.0",
+    "expo-splash-screen": "~0.30.0",
+    "expo-sqlite": "~16.0.0",
+    "expo-status-bar": "~2.2.0",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "~2.25.0",
+    "react-native-reanimated": "~3.17.0",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.0",
+    "react-native-sound": "^0.11.2",
+    "react-native-vision-camera": "^4.7.3",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}

@@ -154,7 +154,37 @@ https://github.com/aiguimi/FatigueDetector/releases/tag/v5.0
 4. Works stably in bright daylight
 5. Light supplement and pre-test are mandatory for night use
  
- 
+⚠️ Known Issues & Notes / ⚠️ 已知问题与注意事项
+ 
+1. Camera Black Screen After System Language Change / 系统语言切换后摄像头无画面
+ 
+- 现象 / Symptom:
+After changing your device's system language, the camera feed may appear black and fail to initialize.
+切换设备系统语言后，摄像头画面可能出现黑屏，无法正常工作。
+
+- 原因 / Cause:
+The camera permission and device context are bound to the system language at the first installation. Changing the language afterward may cause the app to fail to match the camera resource.
+应用首次安装时，摄像头权限与设备上下文会和当前系统语言绑定；切换语言后，可能导致应用无法匹配到已授权的摄像头资源。
+
+- 临时解决方法 / Workaround:
+
+1. Go to your phone's Settings → Apps → [Your App Name] → Storage.
+进入手机 设置 → 应用 → [你的应用名称] → 存储。
+
+2. Tap Clear Data (and optionally Clear Cache).
+点击 清除数据（可同时清除缓存）。
+
+3. Reopen the app. It will re-request camera permissions, and the camera should work normally.
+重新打开应用，会重新请求摄像头权限，摄像头即可恢复正常。
+
+- 说明 / Note:
+This issue only affects users who frequently switch system languages. Regular users using a single language will not encounter this problem.
+该问题仅在频繁切换系统语言的场景下触发，长期使用同一语言的普通用户不会遇到此问题。
+
+- 后续计划 / Future Plan:
+This will be fixed in a future update by changing the camera initialization logic to use the device's unique ID instead of localized names.
+后续版本将通过修改摄像头调用逻辑（改用设备唯一ID而非本地化名称）彻底解决此问题。
+ 
  
 🧑‍💻 项目开发历程 / Development Journey
  

@@ -26,26 +26,36 @@ FatigueDetector
  
 💡 为什么开发本软件 / Project Origin
  
-中文
- 
-我是一名常年跑长途的驾驶员，深知春运长途驾驶的煎熬与危险。
- 
-日常1200公里路程，正常只需12–14小时即可抵达，但每逢春节返乡高峰期，堵车严重，路程往往需要 20小时以上。春运期间高速服务区爆满，经常无法进入、无法停车休息，只能硬着头皮继续赶路。
- 
-尤其到了下半夜，人体极度疲惫，困意难以抵挡，多次出现半睡半醒、无意识开车的状态，时常猛然惊醒。现在回想十分后怕，万幸从未发生事故。
- 
-正因为亲身经历过这种极度危险的疲劳驾驶状态，我深知长途司机的无奈。市面专业车载预警设备价格昂贵，而手机人人都有。因此我零基础攻坚15天，免费开发、开源分享这款疲劳驾驶检测工具，希望能成为长途驾驶员的一道安全辅助护身符。
- 
-English
- 
-I am a long-distance driver. I deeply understand the suffering and danger of highway driving during the Chinese New Year travel rush.
- 
-A 1200km trip normally takes 12–14 hours, but during the Spring Festival traffic jam, it often takes more than 20 hours. Highway service areas are extremely crowded, and drivers often cannot stop to rest.
- 
-In the late midnight hours, extreme fatigue is unavoidable. I have experienced drowsy and half-asleep driving many times and woke up suddenly in fear. Fortunately, no accidents happened.
- 
-Based on my real dangerous driving experience, I developed this completely free and open-source fatigue detection app. It aims to provide every long-distance driver with a simple and practical safety auxiliary tool.
- 
+### 开发初衷 / Motivation
+
+#### 中文
+
+**这不仅仅是一行行代码，它源于一次真实的生死边缘。**
+
+2024年初（或2025年初），我在湖北湖南的高速上遭遇了罕见的暴雪。1000多公里的路程，因为严重拥堵，开了整整20多个小时。最绝望的是下半夜，极度疲劳让我几次在开车时闭眼，随后又猛然惊醒。
+
+我想休息，但服务区早就爆满，根本进不去；好不容易在应急车道想眯一下，后面的车又不停地按喇叭催促。在零下几度的风雪中，硬着头皮往前开，那种濒临崩溃的无力感，让我深刻意识到：
+
+**在极端的路况下，人的意志力是不可靠的，我们需要一个不会疲倦的“副驾驶”。**
+
+这就是这款APP诞生的原因。它不追求花哨的功能，只希望能在你闭眼的那几秒钟，用警报和震动把你强行拉回现实。哪怕它只能帮你撑过最危险的那一段路，这个项目就有了意义。
+
+#### English
+
+**More Than Just Code: Born from a Real-Life Near-Miss.**
+
+This project isn't just a piece of software; it was born out of a genuine brush with danger.
+
+During a rare blizzard in early 2024 (or early 2025), I was stuck in massive traffic on a highway in Hubei/Hunan. A 1,000-kilometer journey stretched into over 20 hours. The most terrifying part was the exhaustion in the dead of night. My eyes would involuntarily close for a few seconds before I jolted awake in a panic.
+
+I desperately needed to rest, but the service areas were completely jammed. Even when I tried to pull over for a brief nap, impatient drivers behind me kept honking. Driving blindly through the freezing snow, I realized a harsh truth:
+
+**In extreme conditions, human willpower is unreliable. We need a "co-pilot" that never sleeps.**
+
+That is exactly why this app exists. It doesn't aim to be flashy. Its only goal is to yank you back to reality with an alarm and vibration during those few dangerous seconds when your eyes close. If it can help just one driver survive the most perilous stretch of a long journey, this project will have fulfilled its purpose.
+
+---
+
  
  
 ✨ 核心功能 / Core Features
